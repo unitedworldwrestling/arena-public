@@ -6,24 +6,6 @@ It is has been developed and is actively maintained by the **[United World Wrest
 
 **[United World Wrestling](https://unitedworldwrestling.org)** uses **Arena** to manage its Officials International Competitions.
 
-## Features
-
-- Individual / Team competitions
-- Single elimination / Double elimination / Round-Robin Tournaments
-- Custom Weight Categories
-- Sessions Optimization
-- Rest Time Management
-- Results Checker
-- Score Sheets printing
-- Rankings
-- PDF Reports
-- Referees assignment
-- On-Screen display
-- Offline access
-- Centralize DataBase Synchronization
-- Web-Formated results
-- API
-
 ## Install
 
 - [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and Install it
@@ -48,6 +30,28 @@ You may receive "ERROR: Error installing bundler" message during upgrade. To fix
 - Open Command Prompt (Windows) or Terminal (macOS)
 - Run arena_upgrade from its download folder (on macOS, you may have to grant execute permission to the command by "chmod +x arena_upgrade_osx")
 - Wait until the upgrade completes
+
+## Reporting problems
+
+Support requests, bugs can be reported on the [Github issues tracker](https://github.com/unitedworldwrestling/arena-public/issues).
+
+## Features
+
+- Individual / Team competitions
+- Single elimination / Double elimination / Round-Robin Tournaments
+- Custom Weight Categories
+- Sessions Optimization
+- Rest Time Management
+- Results Checker
+- Score Sheets printing
+- Rankings
+- PDF Reports
+- Referees assignment
+- On-Screen display
+- Offline access
+- Centralize DataBase Synchronization
+- Web-Formated results
+- API
 
 ## Usage
 
@@ -101,7 +105,3 @@ The following steps should be executed on the computer running the Score Board /
 
 Arena has a built-in Rest API which allows you to extend the main scope of the project.
 [API Documentation](http://arena.unitedworldwrestling.org/api/doc)
-
-## Reporting problems
-
-Support requests, bugs can be reported on the Github issues tracker.
