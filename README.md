@@ -84,7 +84,8 @@ Arena comes with a Score Board & Live Graphics application.
 ### Score Board [Windows Only]
 
 Be careful to download the version corresponding to your version of Arena.
-- [Download](https://we.tl/t-AAs5bX0NA8)
+- [Version 1.2.30.1](https://we.tl/t-R6iLjlqXO7) (8-Dec-2020)
+- [Version 1.2.29.30](https://we.tl/t-GEddd0m0gM) (29-Oct-2020)
 
 #### Usage
 The following steps should be executed on the computer running the Score Board / Weigh-In.
