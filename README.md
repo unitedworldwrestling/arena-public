@@ -24,8 +24,7 @@ If a new version is available you wil see an "Upgrade" button on the top right c
 **Known issue:** 
 
 You may receive "ERROR: Error installing bundler" message during upgrade. To fix the error follow these steps:
-
-- Download the arena_upgrade executable for the Operating System where Arena is running ([Windows 64bit](https://we.tl/t-y7Qxpg2w6s), [Windows 32bit](https://we.tl/t-9H0YkJfLwY), [macOS](https://we.tl/t-yCu2CIW21n))
+- Download the arena_upgrade executable for the Operating System where Arena is running ([Windows 64bit](https://we.tl/t-VmvUfSvy59), [Windows 32bit](https://we.tl/t-uEbXF1tjID), [macOS](https://we.tl/t-rdW30UTKEd))
 - Make sure Arena is running and accessible via [http://localhost:8080](http://localhost:8080/)
 - Open Command Prompt (Windows) or Terminal (macOS)
 - Run arena_upgrade from its download folder (on macOS, you may have to grant execute permission to the command by "chmod +x arena_upgrade_osx")
