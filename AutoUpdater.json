@@ -1,0 +1,14 @@
+{
+   "version":"1.2.30.5",
+   "url":"http://rbsoft.org/UWWtimingSetup_1.2.30.5.msi",
+   "changelog":"https://raw.githubusercontent.com/unitedworldwrestling/arena-public/releases/uwwtiming/CHANGELOG.md",
+   "mandatory":{
+      "value":false,
+      "minVersion": "1.2.0.0",
+      "mode":0
+   },
+   "checksum":{
+      "value":"DDA4E72025E6670757D1BD21D6C0DD3DD6664910",
+      "hashingAlgorithm":"SHA1"
+   }
+}
