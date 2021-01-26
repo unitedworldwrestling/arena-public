@@ -1,5 +1,9 @@
 Changelog
 -------------
+1.2.30.13 (26-Jan-2021):
+ - New: Auto Updater module
+ - Fix: Unable to load matches from Arena 1.5.70, Time is displayed in invalid format, Period does not end
+
 1.2.30 (8-Dec-2020):
  - New: Verbal Warning button
  - New: Overtime support (requires Arena support)
