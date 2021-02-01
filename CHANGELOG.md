@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.2.30.16 (01-Feb-2021):
+ - Fix: Can't send match results to Arena in some cases
+
 1.2.30.13 (26-Jan-2021):
  - New: Auto Updater module
  - Fix: Unable to load matches from Arena 1.5.70, Time is displayed in invalid format, Period does not end
