@@ -97,7 +97,7 @@ The following steps should be executed on the computer running the Score Board /
 
 ### Live Graphics Application [Windows Only]
 
-- [Download](https://we.tl/t-R6WNy1JiEZ)
+- [Download](https://we.tl/t-9PLJscUKYW)
 - [Documentation](https://we.tl/t-AgRGognV6g)
 
 ## API
