@@ -1,5 +1,9 @@
 Changelog
 -------------
+1.2.31.1 (11-Feb-2021):
+ - Support for Kazakh Kuresi scoreboard type
+ - Some UI fixes in tablet mode
+
 1.2.30.16 (01-Feb-2021):
  - Fix: Can't send match results to Arena in some cases
 
