@@ -100,7 +100,7 @@ The following steps should be executed on the computer running the Score Board /
 
 ### Live Graphics Application [Windows Only]
 
-- [Download](https://we.tl/t-g8j09vPOZM)
+- [Download](https://we.tl/t-GysVJKuk1c)
 - [Documentation](https://we.tl/t-AgRGognV6g)
 
 ## API
