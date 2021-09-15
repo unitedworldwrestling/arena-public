@@ -27,6 +27,7 @@ Follow the link here
  * Generate Dartclip files for Dartfish Analyses
  * Generate Youtube description files (Upload them manually in each video's description)
  * Create automatically event folder under default windows user Video's folder with Subfolders (Dartclip and Youtube Description)
+ * Log file (Trace.log)
 
   ## Branding Reference
 
