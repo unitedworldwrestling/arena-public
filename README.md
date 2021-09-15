@@ -17,7 +17,7 @@ Follow the link here
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
-![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy-downsized-large.gif)
+![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
 
