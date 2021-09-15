@@ -13,17 +13,19 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-```bash
-  https://github.com/unitedworldwrestling/arena-public/blob/releases/lgtv/download.link
-```
-    
+[Download](https://we.tl/t-gKk03apcpj) (240MB)
+
+## User Guide
+Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
+![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy-downsized-large.gif)
+
 ## Features
 
 * 1.2.7.5.1 / 2021-09-06
  * Stable version
  * New responsive design (fit all screens resolutions)
- * Custumize your graphics colors
- * Custumize your events's Name and Place
+ * Customize your graphics colors
+ * Customize your events's Name and Place
  * Generate Dartclip files for Dartfish Analyses
  * Generate Youtube description files (Upload them manually in each video's description)
  * Create automatically event folder under default windows user Video's folder with Subfolders (Dartclip and Youtube Description)
