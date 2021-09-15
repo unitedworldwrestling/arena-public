@@ -19,7 +19,7 @@ Follow the link here
     
 ## Features
 
-* 1.2.7.5 / 2021-09-06
+* 1.2.7.5.1 / 2021-09-06
  * Stable version
  * New responsive design (fit all screens resolutions)
  * Custumize your graphics colors
