@@ -1,5 +1,17 @@
 Changelog
 -------------
+1.2.32.9 (20-Sep-2021):
+ - New: Beach Wrestling - show weight of the wrestlers (if recorded in Arena) on End Of Match screen
+ - Fix: UI fixes for Beach Wrestling fights
+ - Some updates on Mercure server communication
+
+1.2.32.1 (1-Sep-2021):
+- New: new matches are refreshed in the background
+- New: Custom timer settings are retained
+- Improvements on Network packets
+- Fix: Rest time is not recalculated for new matches
+- Fix: UI fixes
+
 1.2.31.1 (11-Feb-2021):
  - Support for Kazakh Kuresi scoreboard type
  - Some UI fixes in tablet mode
