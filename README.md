@@ -100,8 +100,8 @@ The following steps should be executed on the computer running the Score Board /
 
 ### Live Graphics Application [Windows Only]
 
-- [Download](https://we.tl/t-GysVJKuk1c)
-- [Documentation](https://we.tl/t-AgRGognV6g)
+- [Download](https://github.com/unitedworldwrestling/arena-public/tree/releases/lgtv)
+- [Documentation](https://github.com/unitedworldwrestling/arena-public/tree/releases/lgtv)
 
 ## API
 
