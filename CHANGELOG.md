@@ -1,8 +1,9 @@
 Changelog
 -------------
-1.2.32.9 (20-Sep-2021):
+1.2.32.12 (21-Sep-2021):
  - New: Beach Wrestling - show weight of the wrestlers (if recorded in Arena) on End Of Match screen
  - Fix: UI fixes for Beach Wrestling fights
+ - Fix: AutoUpdate closes the application automatically
  - Some updates on Mercure server communication
 
 1.2.32.1 (1-Sep-2021):
