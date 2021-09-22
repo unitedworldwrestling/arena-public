@@ -9,8 +9,8 @@ It is has been developed and is actively maintained by the **[United World Wrest
 ## Install
 
 - [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and Install it
-- [Download Arena VM (1.5.74.1)](https://we.tl/t-BPiEKwEXGo) [MD5: e2b1e13ee5dda5efef424ff649ed80bc]
-    - (Legacy [Arena VM v1.5.70](https://we.tl/t-xlwwA0Lla9)) [MD5: 712e7f1b7acfa32386716224df6245c0]
+- [Download Arena VM (1.5.76)](https://we.tl/t-zIFQfJSnGi) [MD5: c0a7c9744a4b26560198fe68ba9776d8]
+    - (Legacy [Arena VM (1.5.74.1)](https://we.tl/t-BPiEKwEXGo) [MD5: e2b1e13ee5dda5efef424ff649ed80bc])
 - Open VirtualBox
 - Go to File > Import Appliance > Select the Arena VM you just downloaded
 - Continue with the default settings
@@ -86,17 +86,10 @@ Arena comes with a Score Board & Live Graphics application.
 ### Score Board [Windows Only]
 
 Be careful to download the version corresponding to your version of Arena.
-- [Version 1.2.32.2](https://github.com/unitedworldwrestling/arena-public/raw/releases/uwwtiming/UWWtimingSetup_1.2.32.2.msi) (1-Sep-2021)
+- [Version 1.2.32.12](https://github.com/unitedworldwrestling/arena-public/raw/releases/uwwtiming/UWWtimingSetup_1.2.32.12.msi) (21-Sep-2021)
 
 #### Usage
-The following steps should be executed on the computer running the Score Board / Weigh-In.
-
-- Install with the default settings
-- Open UWW_configurator.exe
-- Fill the "Server URL" with the Arena IP: ````192.168.1.1:8080```` (replace the IP address with the server IP)
-- Select the Mat related to this Score Board (Mat A by default)
-- Save
-- Open UWW_timing.exe
+Watch the UWW IT Webinars - Arena Training Series - Companion applications video for details.
 
 ### Live Graphics Application [Windows Only]
 
