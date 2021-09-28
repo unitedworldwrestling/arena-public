@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.2.32.18 (28-Sep-2021):
+ - Fix Russian flag (RWF)
+
 1.2.32.15 (27-Sep-2021):
  - New flag: ROC is added
  - Update: flag rendering module is ugpraded
