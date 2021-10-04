@@ -1,5 +1,9 @@
 Changelog
 -------------
+1.2.32.23 (4-Oct-2021):
+ - Update on Bahrain flag (BRN)
+ - Logfiles are stored under %LOCALAPPDATA%\UWWTiming folder
+
 1.2.32.18 (28-Sep-2021):
  - Fix Russian flag (RWF)
 
