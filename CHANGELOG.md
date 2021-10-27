@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.2.33.0 (27-Oct-2021):
+ - Sending cautions along with technical points to Arena
+
 1.2.32.23 (4-Oct-2021):
  - Update on Bahrain flag (BRN)
  - Logfiles are stored under %LOCALAPPDATA%\UWWTiming folder
