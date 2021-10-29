@@ -1,5 +1,9 @@
 Changelog
 -------------
+1.2.33.13 (29-Oct-2021):
+ - UI fixes for tablet mode
+ - Network timeout adjustment
+
 1.2.33.0 (27-Oct-2021):
  - Sending cautions along with technical points to Arena
 
