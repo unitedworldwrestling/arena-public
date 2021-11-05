@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.2.33.27 (5-Nov-2021):
+ - Further UI improvements for tablet mode (aka Alternate UI)
+
 1.2.33.13 (29-Oct-2021):
  - UI fixes for tablet mode
  - Network timeout adjustment
