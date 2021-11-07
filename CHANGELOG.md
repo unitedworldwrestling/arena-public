@@ -1,7 +1,8 @@
 Changelog
 -------------
-1.2.33.27 (5-Nov-2021):
+1.2.33.35 (7-Nov-2021):
  - Further UI improvements for tablet mode (aka Alternate UI)
+ - Fix: Next match screen does not load automatically
 
 1.2.33.13 (29-Oct-2021):
  - UI fixes for tablet mode
