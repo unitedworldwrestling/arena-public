@@ -55,7 +55,7 @@ Support requests, bugs can be reported on the [Github issues tracker](https://gi
 ## Usage
 
 ### Webinars
-- [UWW IT Webinars - Arena Training Series](https://uww.org/webinars?field_webinar_type_target_id=2024&field_datetime_value=All)
+- [UWW IT Webinars - Arena Training Series](https://uww.org/training-education?field_webinar_type_target_id=2024&field_date_range_time_value[]=2)
 
 ### Frontend
 - [http://localhost:8080](http://localhost:8080)
