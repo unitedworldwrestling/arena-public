@@ -1,5 +1,10 @@
 Changelog
 -------------
+1.2.34.5 (15-Feb-2022):
+ - Tablet mode shows scores technical points in both rounds
+ - Intorucing Leg Fouls
+ - Further UI imrpvements for Tablet mode
+
 1.2.33.35 (7-Nov-2021):
  - Further UI improvements for tablet mode (aka Alternate UI)
  - Fix: Next match screen does not load automatically
