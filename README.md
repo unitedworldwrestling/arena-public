@@ -13,7 +13,7 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-izkPlkQxDg) (240MB)
+[Download](https://we.tl/t-9Blm3XBwvz) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
@@ -21,12 +21,16 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 
 ## Features
 
-* 1.2.7.5.1 / 2021-09-06
+* 1.2.7.5.9 / 2022-03-22
+ * Support Leg Fouls
+ * Fix challenge & injury time graphics
+ * OBS Replay fix
+ * Create new folder Actions Recap with big moves recap file
+ * Start Settings if it's the first installation
  * Stable version
  * New responsive design (fit all screens resolutions)
  * Customize your graphics colors
  * Customize your events's Name and Place
- * Generate Dartclip files for Dartfish Analyses
  * Generate Youtube description files (Upload them manually in each video's description)
  * Create automatically event folder under default windows user Video's folder with Subfolders (Dartclip and Youtube Description)
  * Log file (Trace.log)
