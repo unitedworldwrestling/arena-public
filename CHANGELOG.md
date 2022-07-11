@@ -1,5 +1,13 @@
 Changelog
 -------------
+1.2.36 (27-Jun-2022):
+ - Improved network outage management
+ - Support up to 10 mats
+
+1.2.35 (27-Mar-2022):
+ - Setup panel has new option: Scoreboard margin. This allows to set a border around the TV screen scoreboard where the TV does not support fit to screen in full screen mode
+ - Fix: Cautions don't get updated when matches flips between styles
+
 1.2.34.5 (15-Feb-2022):
  - Tablet mode shows scores technical points in both rounds
  - Intorucing Leg Fouls
