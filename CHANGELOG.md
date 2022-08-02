@@ -1,5 +1,9 @@
 Changelog
 -------------
+1.2.36.8 (02-Aug-2022):
+- Fix: High CPU utilization detected during application usage
+- Fix: Adjusting Activity timer does not work properly in countdown mode
+
 1.2.36 (27-Jun-2022):
  - Improved network outage management
  - Support up to 10 mats
