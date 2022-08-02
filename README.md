@@ -86,8 +86,8 @@ Arena comes with a Score Board & Live Graphics application.
 ### Score Board [Windows Only]
 
 The application offers an automatic update if a new version is available. Please read the Changelog displayed by the Autoupdater to learn about the changes
-- [Version 1.2.36.0](https://github.com/unitedworldwrestling/arena-public/raw/releases/uwwtiming/UWWtimingSetup_1.2.36.0.msi) (11-Jul-2022)
-- [Old versions are available here](https://github.com/unitedworldwrestling/arena-public/tree/releases/uwwtiming)
+- [Version 1.2.36.8](https://github.com/unitedworldwrestling/arena-public/raw/releases/uwwtiming/UWWtimingSetup_1.2.36.8.msi) (02-Aug-2022)
+- [Some previous versions are available here](https://github.com/unitedworldwrestling/arena-public/tree/releases/uwwtiming)
 
 #### Usage
 Watch the UWW IT Webinars - Arena Training Series - Companion applications video for details.
