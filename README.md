@@ -40,7 +40,7 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
    * Create new folder Actions Recap with big moves recap file
    * Start Settings if it's the first installation
 
-  ## Branding Reference
+## Branding Reference
 
 | Branding             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
