@@ -22,23 +22,23 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 ## Features
 
 * 1.2.7.7.2 / 2022-08-16
- * Fix age name (U20,17) - Add backup stream key - Send settings option
+  * Fix age name (U20,17) - Add backup stream key - Send settings option
 
 * 1.2.7.7.1 / 2022-06-30
- * Support Blackmagic Design ATEM switcher Mini Pro - Auto record and rename videos
+  * Support Blackmagic Design ATEM switcher Mini Pro - Auto record and rename videos
 
 * 1.2.7.7.0 / 2022-05-28
- * Fix other styles
+  * Fix other styles
 
 * 1.2.7.6.0 / 2022-03-26
- * Fix bleeding time
+  * Fix bleeding time
 
 * 1.2.7.5.9 / 2022-03-22
- * Support Leg Fouls
- * Fix challenge & injury time graphics
- * OBS Replay fix
- * Create new folder Actions Recap with big moves recap file
- * Start Settings if it's the first installation
+   * Support Leg Fouls
+   * Fix challenge & injury time graphics
+   * OBS Replay fix
+   * Create new folder Actions Recap with big moves recap file
+   * Start Settings if it's the first installation
 
   ## Branding Reference
 
