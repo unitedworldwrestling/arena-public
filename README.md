@@ -13,7 +13,7 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-hShzkihyfd) (240MB)
+[Download](https://we.tl/t-hqzmWwiyBa) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
@@ -21,6 +21,9 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 
 ## Features
 
+* 1.2.7.7.3 / 2022-08-19
+  * Fix challenge player bug
+  
 * 1.2.7.7.2 / 2022-08-16
   * Fix age name (U20,17) - Add backup stream key - Send settings option
 
