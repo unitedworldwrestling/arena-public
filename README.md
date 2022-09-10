@@ -21,6 +21,12 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 
 ## Features
 
+* 1.2.7.7.5 / 2022-09-10
+ * Fix video name
+
+* 1.2.7.7.4 / 2022-09-09
+ * Update streaming profiles for ATEM
+
 * 1.2.7.7.3 / 2022-08-19
   * Fix challenge player bug
   
