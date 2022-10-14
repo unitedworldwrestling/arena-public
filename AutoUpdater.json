@@ -1,6 +1,6 @@
 {
    "version":"1.2.36.8",
-   "url":"https://raw.githubusercontent.com/unitedworldwrestling/arena-public/releases/uwwtiming/UWWtimingSetup_1.2.36.8.msi",
+   "url":"https://raw.githubusercontent.com/unitedworldwrestling/arena-public/releases/uwwtiming/UWWtimingSetup_1.2.37.2.msi",
    "changelog":"https://raw.githubusercontent.com/unitedworldwrestling/arena-public/releases/uwwtiming/CHANGELOG.md",
    "mandatory":{
       "value":false,
@@ -8,7 +8,7 @@
       "mode":0
    },
    "checksum":{
-      "value":"55ECFA19381D84093584869DAD6A3FC7535DE0F1",
+      "value":"634FBF9772EFBE028357F6F1BC51F4CCE39CE7DC",
       "hashingAlgorithm":"SHA1"
    }
 }

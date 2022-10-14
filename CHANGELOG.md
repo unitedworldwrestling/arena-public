@@ -1,5 +1,9 @@
 Changelog
 -------------
+1.2.37.2 (14-Oct-2022):
+ - Support up to 12 mats
+ - UDP message “mch” is expanded with weight category id
+
 1.2.36.8 (02-Aug-2022):
 - Fix: High CPU utilization detected during application usage
 - Fix: Adjusting Activity timer does not work properly in countdown mode
