@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.2.37.4 (28-Oct-2022):
+ - Fix: In some cases Arena Start List shows the same match info about the running match above multiple mats
+
 1.2.37.2 (14-Oct-2022):
  - Support up to 26 mats
  - UDP message “mch” is expanded with weight category id
