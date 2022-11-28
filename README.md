@@ -13,14 +13,16 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-uycjPrtXMX) (240MB)
+[Download](https://we.tl/t-tmJj4Fhtq3) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
-
+* 1.2.7.7.7 / 2022-11-28
+  * Dynamic title for World Cup
+  
 * 1.2.7.7.6 / 2022-11-04
   * New Keying color for World Cup
   
