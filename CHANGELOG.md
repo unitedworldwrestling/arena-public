@@ -1,5 +1,10 @@
 Changelog
 -------------
+1.2.37.16 (07-Dec-2022):
+ - New: Ability to select a specific event at Load Matches (Available Fights) screen and process matches only from that event.
+ - New: Ability to cancel challenge popup. Available options are Won/Lost and cancel.
+ - Fix: “Arena is not available” popup is shown multiple times if Arena is not available. From now, it’s shown only once 
+
 1.2.37.5 (28-Oct-2022):
  - Fix: In some cases Arena Start List shows the same match info about the running match above multiple mats
 
