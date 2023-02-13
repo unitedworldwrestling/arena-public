@@ -1,5 +1,10 @@
 Changelog
 -------------
+1.2.38.4 (13-Feb-2023):
+Arena 1.5.85 or later requires this version as minimal. Earlier versions of UWWtiming CANNOT work with the new versions of Arena!
+ - Compatible with the new authentication method of Arena 1.5.85+
+ - New: Autodiscover Arena credentials (Setup window)
+
 1.2.37.16 (07-Dec-2022):
  - New: Ability to select a specific event at Load Matches (Available Fights) screen and process matches only from that event.
  - New: Ability to cancel challenge popup. Available options are Won/Lost and cancel.
