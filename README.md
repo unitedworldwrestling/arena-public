@@ -8,9 +8,9 @@ It is has been developed and is actively maintained by the **[United World Wrest
 
 ## Install
 
-- [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and Install it (**Although VirtualBox v7 has been released, it's strongly recommended to download VirtualBox 6.1.x version. V7 has not been certified yet**)
-- [Download Arena VM (1.5.83)](https://we.tl/t-OCRfO6E4u1) [MD5: bb42f64c94803840cf8dbe0b018530ea]
-    - (Legacy [Arena VM (1.5.76)](https://we.tl/t-zIFQfJSnGi) [MD5: c0a7c9744a4b26560198fe68ba9776d8]
+- [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and Install it
+- [Download Arena VM (1.5.85)](https://we.tl/t-3zvu2BQOMq) [MD5: 99A5FE7370C1A0D5A49DC870A3C07714]
+    - Legacy [Arena VM (1.5.83)](https://we.tl/t-OCRfO6E4u1) [MD5: bb42f64c94803840cf8dbe0b018530ea]
 - Open VirtualBox
 - Go to File > Import Appliance > Select the Arena VM you just downloaded
 - Continue with the default settings
