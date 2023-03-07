@@ -95,7 +95,7 @@ Watch the UWW IT Webinars - Arena Training Series - Companion applications video
 
 ### Live Graphics Application [Windows Only]
 
-- [Download](https://we.tl/t-WFKHHNIkGw)
+- [Download](https://we.tl/t-xmFXBZsIsU)
 - [Documentation](https://github.com/unitedworldwrestling/arena-public/tree/releases/lgtv)
 
 ## API
