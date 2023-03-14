@@ -1,5 +1,11 @@
 Changelog
 -------------
+1.2.38.16 (14-Mar-2023)
+ - New: Logfile to store application logs for troubleshooting (%LOCALAPPDATA%\UnitedWorldWrestling\Log)
+ - Update: Improve flags readability on the Waiting screen
+ - Fix: Application may crash at launch time
+ - Fix: Showing matches from weight categories marked as invisible to public in Arena
+
 1.2.38.4 (13-Feb-2023):
 Arena 1.5.85 or later requires this version as minimal. Earlier versions of UWWtiming CANNOT work with the new versions of Arena!
  - Compatible with the new authentication method of Arena 1.5.85+
