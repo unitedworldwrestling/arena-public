@@ -1,5 +1,15 @@
 Changelog
 -------------
+1.2.39.4 (05-Apr-2023)
+ - New: Submit challenge information to Arena (requires Arena 1.5.86 or later)
+ - Update: Beach Wrestling – underline winner in case of a tie 0:0
+ - Update: Add transparent white frame around flags on Waiting Screen
+ - Update: Updated UI design
+ - Update: Validate ArenaURL format on Setup screen
+ - Fix: Missing Advantage button in Tablet mode
+ - Fix: Referee numbers are not always shown on Waiting Screen
+ - Fix: some minor fixes
+
 1.2.38.16 (14-Mar-2023)
  - New: Logfile to store application logs for troubleshooting (%LOCALAPPDATA%\UnitedWorldWrestling\Log)
  - Update: Improve flags readability on the Waiting screen
