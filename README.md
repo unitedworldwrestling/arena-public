@@ -13,13 +13,21 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-xmFXBZsIsU) (240MB)
+[Download](https://we.tl/t-1ncFsdBMJB) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
+* 1.2.7.8.3 / 2023-04-29
+ * Fix PKA Styles
+ * CTRL+SPACE to show the challenge player
+ * New feature Second Screen, option to show the challenge player on second screen
+
+* 1.2.7.8.2 / 2023-03-25
+ * Minor fixes
+ 
 * 1.2.7.8.1 / 2023-02-03
  * Fix telegram group ID for media
  
