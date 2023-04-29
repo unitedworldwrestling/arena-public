@@ -20,6 +20,7 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
+
 * 1.2.7.8.3 / 2023-04-29
  * Fix PKA Styles
  * CTRL+SPACE to show the challenge player
