@@ -30,7 +30,7 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
   * Minor fixes
  
 * 1.2.7.8.1 / 2023-02-03
- * Fix telegram group ID for media
+  * Fix telegram group ID for media
  
 * 1.2.7.7.7 / 2022-11-28
   * Dynamic title for World Cup
