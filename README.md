@@ -13,7 +13,7 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-1ncFsdBMJB) (240MB)
+[Download](https://we.tl/t-ss5NicJmQl) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
@@ -21,6 +21,9 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 
 ## Features
 
+* 1.2.7.8.4 / 2023-04-29
+  * Minor fix PKA Styles
+ 
 * 1.2.7.8.3 / 2023-04-29
   * Fix PKA Styles
   * CTRL+SPACE to show the challenge player
