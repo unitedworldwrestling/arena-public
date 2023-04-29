@@ -22,12 +22,12 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 ## Features
 
 * 1.2.7.8.3 / 2023-04-29
- * Fix PKA Styles
- * CTRL+SPACE to show the challenge player
- * New feature Second Screen, option to show the challenge player on second screen
+  * Fix PKA Styles
+  * CTRL+SPACE to show the challenge player
+  * New feature Second Screen, option to show the challenge player on second screen
 
 * 1.2.7.8.2 / 2023-03-25
- * Minor fixes
+  * Minor fixes
  
 * 1.2.7.8.1 / 2023-02-03
  * Fix telegram group ID for media
