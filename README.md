@@ -13,13 +13,19 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-NLeBWK7duj) (240MB)
+[Download](https://we.tl/t-QumKbsZMWR) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
+
+* 1.2.7.8.6 / 2023-05-25
+ * Rename recording folder
+
+* 1.2.7.8.5 / 2023-05-22
+ * FIX ASO Styles colors
 
 * 1.2.7.8.4 / 2023-04-29
   * Minor fix PKA Styles
@@ -40,34 +46,6 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
   
 * 1.2.7.7.6 / 2022-11-04
   * New Keying color for World Cup
-  
-* 1.2.7.7.5 / 2022-09-10
-  * Fix video name
-
-* 1.2.7.7.4 / 2022-09-09
-  * Update streaming profiles for ATEM
-
-* 1.2.7.7.3 / 2022-08-19
-  * Fix challenge player bug
-  
-* 1.2.7.7.2 / 2022-08-16
-  * Fix age name (U20,17) - Add backup stream key - Send settings option
-
-* 1.2.7.7.1 / 2022-06-30
-  * Support Blackmagic Design ATEM switcher Mini Pro - Auto record and rename videos
-
-* 1.2.7.7.0 / 2022-05-28
-  * Fix other styles
-
-* 1.2.7.6.0 / 2022-03-26
-  * Fix bleeding time
-
-* 1.2.7.5.9 / 2022-03-22
-   * Support Leg Fouls
-   * Fix challenge & injury time graphics
-   * OBS Replay fix
-   * Create new folder Actions Recap with big moves recap file
-   * Start Settings if it's the first installation
 
 ## Branding Reference
 
