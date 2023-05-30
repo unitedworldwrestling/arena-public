@@ -1,5 +1,9 @@
 Changelog
 -------------
+1.2.39.9 (30-May-2023)
+ - Fix: Some user is experiencing crash at startup. These errors are being logged now and application can be launched.
+ - Update: Add the Event ID and Event name to the "mch" UDP message
+
 1.2.39.4 (05-Apr-2023)
  - New: Submit challenge information to Arena (requires Arena 1.5.86 or later)
  - Update: Beach Wrestling – underline winner in case of a tie 0:0
