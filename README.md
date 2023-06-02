@@ -13,13 +13,16 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-QumKbsZMWR) (240MB)
+[Download](https://we.tl/t-ZMUJIbbmNV) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
+
+* 1.2.7.8.7 / 2023-06-02
+ * Minor fix
 
 * 1.2.7.8.6 / 2023-05-25
  * Rename recording folder
