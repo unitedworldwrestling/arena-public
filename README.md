@@ -25,13 +25,13 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
   * Add new ON SCREEN GRAPHICS for Beach Wrestling
 
 * 1.2.7.8.7 / 2023-06-02
- * Minor fix
+  * Minor fix
 
 * 1.2.7.8.6 / 2023-05-25
- * Rename recording folder
+  * Rename recording folder
 
 * 1.2.7.8.5 / 2023-05-22
- * FIX ASO Styles colors
+  * FIX ASO Styles colors
 
 * 1.2.7.8.4 / 2023-04-29
   * Minor fix PKA Styles
@@ -46,12 +46,7 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
  
 * 1.2.7.8.1 / 2023-02-03
   * Fix telegram group ID for media
- 
-* 1.2.7.7.7 / 2022-11-28
-  * Dynamic title for World Cup
-  
-* 1.2.7.7.6 / 2022-11-04
-  * New Keying color for World Cup
+
 
 ## Branding Reference
 
