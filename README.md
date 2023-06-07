@@ -22,7 +22,7 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 ## Features
 
 * 1.2.7.8.8 / 2023-06-07
- * Add new ON SCREEN GRAPHICS for Beach Wrestling
+  * Add new ON SCREEN GRAPHICS for Beach Wrestling
 
 * 1.2.7.8.7 / 2023-06-02
  * Minor fix
