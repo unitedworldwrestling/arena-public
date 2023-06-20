@@ -1,0 +1,82 @@
+version: '3.8'
+
+services:
+    php-fpm:
+        image: public.ecr.aws/uww/app/arena:latest
+        environment:
+            PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:-256M}
+        entrypoint: [ "/bin/sh", "/entrypoint.sh", "php-fpm" ]
+        volumes:
+            - public-uploads:/var/www/arena/current/public/uploads    
+            - php-shared-temp-dir:/var/www/arena/phpshared
+        restart: always
+        depends_on:
+            mysql:
+                condition: service_healthy
+
+    # Workers
+    arena-job-queue-runner:
+        image: public.ecr.aws/uww/app/arena:latest
+        command: [ "bin/console", "jms-job-queue:run", "--verbose" ]
+        environment:
+            PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:-256M}
+        volumes:
+            - public-uploads:/var/www/arena/current/public/uploads
+            - php-shared-temp-dir:/var/www/arena/phpshared
+        restart: always
+        depends_on:
+            mysql:
+                condition: service_healthy
+
+    arena-mq-processor:
+        image: public.ecr.aws/uww/app/arena:latest
+        command: [ "bin/console", "enqueue:consume", "--setup-broker" ]
+        environment:
+            PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:-256M}
+        restart: always
+        depends_on:
+            mysql:
+                condition: service_healthy
+            rabbitmq:
+                condition: service_healthy
+
+    ### Service containers
+    nginx:
+        image: public.ecr.aws/uww/app/arena-web:latest
+        ports:
+            - 8080:80
+        volumes:
+            - public-uploads:/var/www/arena/current/public/uploads
+        depends_on:
+            php-fpm:
+                condition: service_healthy
+            caddy:
+                condition: service_started
+
+    mysql:
+        image: public.ecr.aws/uww/app/arena-db:latest
+        restart: always
+#        volumes:
+#            - ./database/data:/var/lib/mysql
+
+    rabbitmq:
+        image: public.ecr.aws/uww/app/arena-rabbitmq:latest
+        restart: always
+
+    caddy:
+        image: dunglas/mercure
+        restart: always
+        environment:
+            SERVER_NAME: ':80'
+            MERCURE_PUBLISHER_JWT_KEY: '!ChangeThisMercureHubJWTSecretKey!!'
+            MERCURE_SUBSCRIBER_JWT_KEY: '!ChangeThisMercureHubJWTSecretKey!!'
+            MERCURE_EXTRA_DIRECTIVES: |
+                cors_origins http://127.0.0.1:8000
+
+    redis:
+        image: redis:latest
+
+volumes:
+  database:
+  public-uploads:
+  php-shared-temp-dir:
