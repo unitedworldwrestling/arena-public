@@ -1,5 +1,10 @@
 Changelog
 -------------
+1.2.39.22 (11-Aug-2023)
+ - New: Add flag for AIN
+ - Update: Disable time start/stop button at reaching the Max number of cautions 
+ - Update: Change the color of the timer at round ends  
+
 1.2.39.9 (30-May-2023)
  - Fix: Some user is experiencing crash at startup. These errors are being logged now and application can be launched.
  - Update: Add the Event ID and Event name to the "mch" UDP message
