@@ -21,9 +21,9 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 
 ## Features
 * 1.2.7.9 / 2023-09-09
- * Generate JSON File for AWS upload process
- * Add "Wrestling" before a senior event ex. "Wrestling World Championships"
- * Add new settings params
+  * Generate JSON File for AWS upload process
+  * Add "Wrestling" before a senior event ex. "Wrestling World Championships"
+  * Add new settings params
 
 * 1.2.7.8.9 / 2023-07-12
   * Fix style on graphics
