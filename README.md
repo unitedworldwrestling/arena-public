@@ -13,13 +13,17 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-IEr6fTXjT9) (240MB)
+[Download](https://we.tl/t-IFSD7lFZmp) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
+* 1.2.7.9 / 2023-09-09
+ * Generate JSON File for AWS upload process
+ * Add "Wrestling" before a senior event ex. "Wrestling World Championships"
+ * Add new settings params
 
 * 1.2.7.8.9 / 2023-07-12
   * Fix style on graphics
@@ -35,20 +39,6 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 
 * 1.2.7.8.5 / 2023-05-22
   * FIX ASO Styles colors
-
-* 1.2.7.8.4 / 2023-04-29
-  * Minor fix PKA Styles
- 
-* 1.2.7.8.3 / 2023-04-29
-  * Fix PKA Styles
-  * CTRL+SPACE to show the challenge player
-  * New feature Second Screen, option to show the challenge player on second screen
-
-* 1.2.7.8.2 / 2023-03-25
-  * Minor fixes
- 
-* 1.2.7.8.1 / 2023-02-03
-  * Fix telegram group ID for media
 
 
 ## Branding Reference
