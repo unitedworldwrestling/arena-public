@@ -13,13 +13,16 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-IFSD7lFZmp) (240MB)
+[Download](https://we.tl/t-xxBgceSWeb) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
+* 1.2.7.9.1 / 2023-09-14
+  * Custom Brightcove Tier
+
 * 1.2.7.9 / 2023-09-09
   * Generate JSON File for AWS upload process
   * Add "Wrestling" before a senior event ex. "Wrestling World Championships"
