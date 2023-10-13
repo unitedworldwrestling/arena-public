@@ -1,5 +1,9 @@
 Changelog
 -------------
+1.2.39.27 (13-Oct-2023)
+ - Fixes to Kazakh mode
+ - Fix Start/Stop button is disabled in Desktop mode
+
 1.2.39.22 (11-Aug-2023)
  - New: Add flag for AIN
  - Update: Disable time start/stop button at reaching the Max number of cautions 
