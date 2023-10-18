@@ -56,7 +56,8 @@ services:
     mysql:
         image: public.ecr.aws/uww/app/arena-db:latest
         restart: always
-#        volumes:
+        volumes:
+            - database:/var/lib/mysql
 #            - ./database/data:/var/lib/mysql
 
     rabbitmq:
@@ -75,6 +76,8 @@ services:
 
     redis:
         image: redis:latest
+        ports:
+            - 16370:6379
 
 volumes:
   database:
