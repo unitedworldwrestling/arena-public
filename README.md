@@ -13,35 +13,27 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-ArRRcnaPjq) (240MB)
+[Download](https://we.tl/t-xosvSul6vP) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
+* 1.2.7.9.3 / 2023-10-19
+  * Kazakh Kuresi Scores Block design
+  * InPlayer Packages update (UWW)
+
+* 1.2.7.9.2 / 2023-10-13
+  * Custom Brightcove Tier update (UWW)
+
 * 1.2.7.9.1 / 2023-09-14
-  * Custom Brightcove Tier
+  * Custom Brightcove Tier (UWW)
 
 * 1.2.7.9 / 2023-09-09
   * Generate JSON File for AWS upload process
   * Add "Wrestling" before a senior event ex. "Wrestling World Championships"
   * Add new settings params
-
-* 1.2.7.8.9 / 2023-07-12
-  * Fix style on graphics
-
-* 1.2.7.8.8 / 2023-06-07
-  * Add new ON SCREEN GRAPHICS for Beach Wrestling
-
-* 1.2.7.8.7 / 2023-06-02
-  * Minor fix
-
-* 1.2.7.8.6 / 2023-05-25
-  * Rename recording folder
-
-* 1.2.7.8.5 / 2023-05-22
-  * FIX ASO Styles colors
 
 
 ## Branding Reference
