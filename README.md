@@ -56,6 +56,12 @@ Support requests, bugs can be reported on the [Github issues tracker](https://gi
 
 ### Webinars
 - [UWW IT Webinars - Arena Training Series](https://uww.org/training-education?field_webinar_type_target_id=2024&field_date_range_time_value=All)
+    - [Arena Training Series - Overview and Install](https://video.uww.org/embed/bc_external?src=https://d2gmw1lx5tges0.cloudfront.net/assets/ArenaTrainingS01E01/HLS/ArenaTrainingS01E01.m3u8&thumbnail=)
+    - [Arena Training Series - Running events](https://video.uww.org/embed/bc_external?src=https://d2gmw1lx5tges0.cloudfront.net/assets/ArenaTrainingS01E02/HLS/ArenaTrainingS01E02.m3u8&thumbnail=)
+    - [Arena Training Series - Arena advanced feature - Part I.](https://video.uww.org/embed/bc_external?src=https://d2gmw1lx5tges0.cloudfront.net/assets/ArenaTrainingS01E03/HLS/ArenaTrainingS01E03.m3u8&thumbnail=)
+    - [Arena Training Series - Arena advanced feature - Part II.](https://video.uww.org/embed/bc_external?src=https://d2gmw1lx5tges0.cloudfront.net/assets/ArenaTrainingS01E04/HLS/ArenaTrainingS01E04.m3u8&thumbnail=)
+    - [Arena Training Series - Companion applications](https://video.uww.org/embed/bc_external?src=https://d2gmw1lx5tges0.cloudfront.net/assets/ArenaTrainingS01E05/HLS/ArenaTrainingS01E05.m3u8&thumbnail=)
+    - [Arena Training Series - REST API Interface](https://video.uww.org/embed/bc_external?src=https://d2gmw1lx5tges0.cloudfront.net/assets/ArenaTrainingS01E06/HLS/ArenaTrainingS01E06.m3u8&thumbnail=)
 
 ### Frontend
 - [http://localhost:8080](http://localhost:8080)
