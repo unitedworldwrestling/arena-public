@@ -52,11 +52,12 @@ services:
 
     ### Service containers
     nginx:
-        image: public.ecr.aws/uww/app/arena-web:latest
+        image: public.ecr.aws/uww/app/arena-web:beta
         ports:
             - 8080:80
         volumes:
             - public-uploads:/var/www/arena/current/public/uploads
+        restart: always
         depends_on:
             php-fpm:
                 condition: service_healthy
@@ -64,18 +65,18 @@ services:
                 condition: service_started
 
     mysql:
-        image: public.ecr.aws/uww/app/arena-db:latest
+        image: public.ecr.aws/uww/app/arena-db:beta
         restart: always
         volumes:
             - database:/var/lib/mysql
 #            - ./database/data:/var/lib/mysql
 
     rabbitmq:
-        image: public.ecr.aws/uww/app/arena-rabbitmq:latest
+        image: public.ecr.aws/uww/app/arena-rabbitmq:beta
         restart: always
 
     caddy:
-        image: dunglas/mercure
+        image: public.ecr.aws/uww/app/arena-mercure:beta
         restart: always
         environment:
             SERVER_NAME: ':80'
@@ -85,7 +86,8 @@ services:
                 cors_origins http://127.0.0.1:8000
 
     redis:
-        image: redis:latest
+        image: public.ecr.aws/uww/app/arena-redis:beta
+        restart: always
         ports:
             - 16370:6379
 
