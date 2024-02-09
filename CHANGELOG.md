@@ -1,5 +1,10 @@
 Changelog
 -------------
+1.2.39.42 (09-Feb-2024)
+ - Allow to change points during challenge
+ - Shows Verbal Warning & Passivity in score timeline
+ - Fix Beach Wrestling tie criteria
+
 1.2.39.27 (13-Oct-2023)
  - Fixes to Kazakh mode
  - Fix Start/Stop button is disabled in Desktop mode
