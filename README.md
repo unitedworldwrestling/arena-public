@@ -7,7 +7,10 @@ It is has been developed and is actively maintained by the **[United World Wrest
 **[United World Wrestling](https://unitedworldwrestling.org)** uses **Arena** to manage its Officials International Competitions.
 
 ## Install
+Docker based image:
+ - Follow https://github.com/unitedworldwrestling/arena-public/discussions/133
 
+VirtualBox based image:
 - [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and Install it
 - [Download Arena VM (1.5.85)](https://we.tl/t-g0zYJoot17) [MD5: 090a926418c3c9a560a2ab29a5ec9b0c]
 - Open VirtualBox
