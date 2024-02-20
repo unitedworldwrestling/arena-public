@@ -12,7 +12,7 @@ Docker based image:
 
 VirtualBox based image:
 - [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and Install it
-- [Download Arena VM (1.5.85)](https://we.tl/t-g0zYJoot17) [MD5: 090a926418c3c9a560a2ab29a5ec9b0c]
+- [Download Arena VM (1.5.85)](https://we.tl/t-BVMneLacQx) [MD5: 2024F71CF413233EB41D28AD5157AAB2]
 - Open VirtualBox
 - Go to File > Import Appliance > Select the Arena VM you just downloaded
 - Continue with the default settings
