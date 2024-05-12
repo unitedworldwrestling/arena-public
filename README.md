@@ -13,7 +13,7 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-nv6EreBrkN) (40MB)
+[Download](https://we.tl/t-npTeXsW4KQ) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
