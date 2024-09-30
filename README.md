@@ -20,7 +20,7 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
-## Features
+## Last Features
 * 1.2.7.13 / 2024-09-26
   * Import/Export settings to JSON file
   * Require NDI Runtime
@@ -31,21 +31,6 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
   * Add UWW Employee access
   * Challenge player checkbox to use
   * AOD Scorecard during challenge
-
-* 1.2.7.9.3 / 2023-10-19
-  * Kazakh Kuresi Scores Block design
-  * InPlayer Packages update (UWW)
-
-* 1.2.7.9.2 / 2023-10-13
-  * Custom Brightcove Tier update (UWW)
-
-* 1.2.7.9.1 / 2023-09-14
-  * Custom Brightcove Tier (UWW)
-
-* 1.2.7.9 / 2023-09-09
-  * Generate JSON File for AWS upload process
-  * Add "Wrestling" before a senior event ex. "Wrestling World Championships"
-  * Add new settings params
 
 
 ## Branding Reference
