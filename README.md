@@ -21,6 +21,17 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Features
+* 1.2.7.13 / 2024-09-26
+  * Import/Export settings to JSON file
+  * Require NDI Runtime
+  * Deactivate unused hardware settings
+  * Remove "APPLY" button for BC channel
+  * Require refresh BC extra settings
+  * Update checkbox for SLS JSON file
+  * Add UWW Employee access
+  * Challenge player checkbox to use
+  * AOD Scorecard during challenge
+
 * 1.2.7.9.3 / 2023-10-19
   * Kazakh Kuresi Scores Block design
   * InPlayer Packages update (UWW)
