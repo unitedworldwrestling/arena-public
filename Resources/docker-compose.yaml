@@ -1,10 +1,9 @@
-version: '3.8'
-
 services:
     php-fpm:
         image: public.ecr.aws/uww/app/arena:latest
         environment:
             PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:--1}
+            DOCKER_COMPOSE_FILE_VERSION: "1.1"
         entrypoint: [ "/bin/sh", "/entrypoint.sh", "php-fpm" ]
         volumes:
             - public-uploads:/var/www/arena/current/public/uploads    
@@ -15,24 +14,16 @@ services:
                 condition: service_healthy
 
     # Workers
-    arena-job-queue-runner:
+    arena-mq-processor:
         image: public.ecr.aws/uww/app/arena:latest
-        command: [ "bin/console", "jms-job-queue:run", "--verbose" ]
+        command: "/command_enqueue.sh"
+        pre_stop:
+            - command: [ "/bin/sh", "-c", "touch", "/tmp/signal_prestop" ]
         environment:
             PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:-256M}
         volumes:
             - public-uploads:/var/www/arena/current/public/uploads
             - php-shared-temp-dir:/var/www/arena/phpshared
-        restart: always
-        depends_on:
-            mysql:
-                condition: service_healthy
-
-    arena-mq-processor:
-        image: public.ecr.aws/uww/app/arena:latest
-        command: [ "bin/console", "enqueue:consume", "--setup-broker", '--time-limit=now + 15 minutes' ]
-        environment:
-            PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:-256M}
         restart: always
         depends_on:
             mysql:
