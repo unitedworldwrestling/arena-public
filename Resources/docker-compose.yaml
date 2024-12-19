@@ -18,7 +18,7 @@ services:
         image: public.ecr.aws/uww/app/arena:latest
         command: "/command_enqueue.sh"
         pre_stop:
-            - command: [ "/bin/sh", "-c", "touch", "/tmp/signal_prestop" ]
+            - command: [ "/usr/bin/touch", "/tmp/signal_prestop" ]
         environment:
             PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:-256M}
         volumes:
