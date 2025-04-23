@@ -11,6 +11,9 @@ Docker based image:
  - [Follow Discussion](https://github.com/unitedworldwrestling/arena-public/discussions/133)
 
 VirtualBox based image:
+> [!important]
+> Virtualbox based image support will expire at the end of 2025!!!
+
 - [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and Install it
 - [Download Arena VM (1.5.93)](https://we.tl/t-cXTAXWe4EK) [MD5: 27b9b2a0987109ab07a0a736f3470ac1] - Valid until 01-Mar-2026
 - Open VirtualBox
