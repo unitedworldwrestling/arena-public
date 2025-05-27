@@ -1,5 +1,11 @@
 Changelog
 -------------
+1.2.40 (19-May-2025)
+ - Update AIN and SYR Flags
+ - New: keyboard shortcuts for new challenge buttons (CTRL+R, CTRL+B)
+ - Activity Time for Grappling
+ - New 2025 Beach Wrestling Rule for 2VIN in Semi-Final or Medal matches
+
 1.2.39.42 (09-Feb-2024)
  - Allow to change points during challenge
  - Shows Verbal Warning & Passivity in score timeline
