@@ -1,6 +1,6 @@
 Changelog
 -------------
-1.2.40 (19-May-2025)
+1.2.40.2 (27-May-2025)
  - Update AIN and SYR Flags
  - New: keyboard shortcuts for new challenge buttons (CTRL+R, CTRL+B)
  - Activity Time for Grappling
