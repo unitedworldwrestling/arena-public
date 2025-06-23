@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.2.40.10 (23-Jun-2025)
+ - New: Ability to use opposite advantage in Greco Roman style when match ends 1:1 (Enable it in Custom Settings dialog)
+
 1.2.40.2 (27-May-2025)
  - Update AIN and SYR Flags
  - New: keyboard shortcuts for new challenge buttons (CTRL+R, CTRL+B)
