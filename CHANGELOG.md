@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.2.40.13 (10-Sep-2025)
+ - Update: Use normal advantage on Greco Roman style 1:1 result if both athletes have 1 caution
+
 1.2.40.10 (23-Jun-2025)
  - New: Ability to use opposite advantage in Greco Roman style when match ends 1:1 (Enable it in Custom Settings dialog)
 
