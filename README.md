@@ -13,7 +13,7 @@ Live Graphics for TV and Streaming
 
 Follow the link here
 
-[Download](https://we.tl/t-IlcCcXrfos) (240MB)
+[Download](https://we.tl/t-WtlCta7kkV) (240MB)
 
 ## User Guide
 Webinar is available here: https://uww.org/webinar/arena-training-series-companion-applications
@@ -21,6 +21,10 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 ![Webinar Animated](https://i.giphy.com/media/W3lO24167RSMC8ccZf/giphy.webp)
 
 ## Last Features
+* 1.2.7.14 / 2025-06-19
+ * Added dynamic branding support for Beach Wrestling Championships by continent input.
+ * Support KiloView E3 record
+   
 * 1.2.7.13 / 2024-09-26
   * Import/Export settings to JSON file
   * Require NDI Runtime
