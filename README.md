@@ -65,8 +65,7 @@ If you have any feedback, please reach out to us at https://github.com/unitedwor
 
 This project is used by :
 
-
-![uww](https://www.passportme.com//AffiliateBrandLogos/567175267_10292016_828420.jpg)
+<img width="619" height="346" alt="image" src="https://github.com/user-attachments/assets/efb86062-e337-4f28-ba9d-c7f6fb13784a" />
 
     
 ## Authors
