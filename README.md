@@ -67,7 +67,7 @@ This project is used by :
 
 
   
-![Logo](https://www.passportme.com//AffiliateBrandLogos/567175267_10292016_828420.jpg)
+![alt text](https://www.passportme.com//AffiliateBrandLogos/567175267_10292016_828420.jpg)
 
     
 ## Authors
