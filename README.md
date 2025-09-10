@@ -22,8 +22,8 @@ Webinar is available here: https://uww.org/webinar/arena-training-series-compani
 
 ## Last Features
 * 1.2.7.14 / 2025-06-19
- * Added dynamic branding support for Beach Wrestling Championships by continent input.
- * Support KiloView E3 record
+  * Added dynamic branding support for Beach Wrestling Championships by continent input.
+  * Support KiloView E3 record
    
 * 1.2.7.13 / 2024-09-26
   * Import/Export settings to JSON file
