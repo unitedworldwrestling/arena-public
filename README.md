@@ -7,33 +7,41 @@ It is has been developed and is actively maintained by the **[United World Wrest
 **[United World Wrestling](https://unitedworldwrestling.org)** uses **Arena** to manage its Officials International Competitions.
 
 ## Install
-Docker based image:
- - [Follow Discussion](https://github.com/unitedworldwrestling/arena-public/discussions/133)
-
-VirtualBox based image:
-> [!important]
-> Virtualbox based image support will expire at the end of 2025!!!
-
-- [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and Install it
-- [Download Arena VM (1.5.93)](https://we.tl/t-cXTAXWe4EK) [MD5: 27b9b2a0987109ab07a0a736f3470ac1] - Valid until 01-Mar-2026
-- Open VirtualBox
-- Go to File > Import Appliance > Select the Arena VM you just downloaded
-- Continue with the default settings
-- Double-click on the newly created VM to start it (You can then reduce this Window)
-- Go to [http://localhost:8080](http://localhost:8080/)
+1. Download and install Docker Desktop https://docs.docker.com/desktop/
+2. Copy [docker-compose.yaml](https://github.com/unitedworldwrestling/arena-public/blob/master/Resources/docker-compose.yaml) into a folder (You must remember this folder location, or use the commands from the "Upgrading to a newer version" section below!!!)
+    - On Windows, it's recommended to use WSL2 (Ubuntu)
+3. Run `docker compose pull` command from the **same** directory of docker-compose.yaml
+    - If you receive "Rate exceeded" error, either Sign in to Docker Desktop, or try with this command 
+        - PowerShell: `$env:COMPOSE_PARALLEL_LIMIT='1'; docker compose pull; Remove-Item Env:COMPOSE_PARALLEL_LIMIT`
+        - Linux/macOS shell: `COMPOSE_PARALLEL_LIMIT=1 docker compose pull`
+5. Run `docker compose up -d` to get Arena running
 
 ## Upgrade
 
-If a new version is available you wil see an "Upgrade" button on the top right corner, just click and wait.
+If a new version is available you wil see an "Upgrade" button at the top right corner under the admin interface (/bracket)
+> [!Important]
+> You must run docker commands from a Terminal application (Poweshell on Windows, or shell on Linux/macOS) and from the directory where you originally downloaded `docker-compose.yaml` and installed Arena first time.
+> If you forgot the directory where this file was downloaded, use the following command to identify:
+> 
+> The last parameter of the following commands is `arena-php-fpm-1` (`<first part>-<second part>`)
+> ![image](https://github.com/user-attachments/assets/bb0d96ec-7721-465a-bcb8-29b50f92e2e4)
+> 
+> Poweshell:
+> ```powershell
+>  docker inspect --format='{{index (index .Config.Labels \"com.docker.compose.project.working_dir\")}}' arena-php-fpm-1
+> ```
+>
+> Linux/macOS shell:
+> ```bash
+>  docker inspect --format='{{index (index .Config.Labels "com.docker.compose.project.working_dir")}}' arena-php-fpm-1
+> ```
 
-**Known issue:** 
+So first, make sure you have the latest `docker-compose.yaml` file. You will get notified by Arena if your [docker-compose.yaml](https://github.com/unitedworldwrestling/arena-public/blob/master/Resources/docker-compose.yaml) file version is not the most recent. Download the latest version and update your existing file.
 
-You may receive "ERROR: Error installing bundler" message during upgrade. To fix the error follow these steps:
-- Download the arena_upgrade executable for the Operating System where Arena is running (Find them in the [Wiki](https://github.com/unitedworldwrestling/arena-public/wiki/How-to-use-arena_upgrade-application))
-- Make sure Arena is running and accessible via [http://localhost:8080](http://localhost:8080/)
-- Open Command Prompt (Windows) or Terminal (macOS)
-- Run arena_upgrade from its download folder (on macOS, you may have to grant execute permission to the command by "chmod +x arena_upgrade_osx")
-- Wait until the upgrade completes
+To upgrade Arena, it's recommended to run `docker compose pull` command from the `docker-compose.yaml` file's directory. You may have to Sign In to Docker Desktop or set `COMPOSE_PARALLEL_LIMIT` variable (as described under Install section) in case of "Rate exceeded" error message during `pull`.
+
+> [!Important]
+> After the `pull` command, the containers MUST BE restarted with `docker compose up -d` command.
 
 ## Reporting problems
 
