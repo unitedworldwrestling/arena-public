@@ -1,0 +1,93 @@
+services:
+    php-fpm:
+        image: public.ecr.aws/uww/app/arena:beta
+        environment:
+            PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:--1}
+            DOCKER_COMPOSE_FILE_VERSION: "1.2"
+        entrypoint: [ "/bin/sh", "/entrypoint.sh", "php-fpm" ]
+        volumes:
+            - public-uploads:/var/www/arena/current/public/uploads    
+            - php-shared-temp-dir:/var/www/arena/phpshared
+        restart: always
+        depends_on:
+            mysql:
+                condition: service_healthy
+
+    # Workers
+    arena-mq-processor:
+        image: public.ecr.aws/uww/app/arena:beta
+        command: "/command_enqueue.sh"
+        pre_stop:
+            - command: [ "/usr/bin/touch", "/tmp/signal_prestop" ]
+        environment:
+            PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:-256M}
+        volumes:
+            - public-uploads:/var/www/arena/current/public/uploads
+            - php-shared-temp-dir:/var/www/arena/phpshared
+        restart: always
+        depends_on:
+            mysql:
+                condition: service_healthy
+            rabbitmq:
+                condition: service_healthy
+
+    arena-periodic-jobs:
+        image: public.ecr.aws/uww/app/arena:beta
+        command: [ "bin/console", "arena:crontask", "--run" ]
+        environment:
+            PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:-256M}
+        restart: always
+        depends_on:
+            mysql:
+                condition: service_healthy
+
+    ### Service containers
+    nginx:
+        image: public.ecr.aws/uww/app/arena-web:beta
+        ports:
+            - 8080:80
+        restart: always
+        volumes:
+            - public-uploads:/var/www/arena/current/public/uploads
+        depends_on:
+            php-fpm:
+                condition: service_healthy
+            caddy:
+                condition: service_started
+
+    mysql:
+        image: public.ecr.aws/uww/app/arena-db:latest
+        restart: always
+        volumes:
+            - database:/var/lib/mysql
+#            - ./database/data:/var/lib/mysql
+
+    rabbitmq:
+        image: public.ecr.aws/uww/app/arena-rabbitmq:latest
+        restart: always
+
+    caddy:
+        image: public.ecr.aws/uww/app/arena-mercure:latest
+        restart: always
+        environment:
+            SERVER_NAME: ':80'
+            MERCURE_PUBLISHER_JWT_KEY: '!ChangeThisMercureHubJWTSecretKey!!'
+            MERCURE_SUBSCRIBER_JWT_KEY: '!ChangeThisMercureHubJWTSecretKey!!'
+            MERCURE_EXTRA_DIRECTIVES: |
+                cors_origins http://127.0.0.1:8000
+
+    redis:
+        image: public.ecr.aws/uww/app/arena-redis:latest
+        restart: always
+        ports:
+            - 16370:6379
+    gotenberg:
+        image: gotenberg/gotenberg:8
+        restart: always
+        environment:
+            - PDFENGINES_MERGE_ENGINES=pdftk,qpdf,pdfcpu
+
+volumes:
+  database:
+  public-uploads:
+  php-shared-temp-dir:
