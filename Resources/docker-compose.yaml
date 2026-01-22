@@ -3,7 +3,7 @@ services:
         image: public.ecr.aws/uww/app/arena:latest
         environment:
             PHP_MEMORY_LIMIT: ${PHP_MEMORY_LIMIT:--1}
-            DOCKER_COMPOSE_FILE_VERSION: "1.1"
+            DOCKER_COMPOSE_FILE_VERSION: "1.2"
         entrypoint: [ "/bin/sh", "/entrypoint.sh", "php-fpm" ]
         volumes:
             - public-uploads:/var/www/arena/current/public/uploads    
@@ -81,6 +81,11 @@ services:
         restart: always
         ports:
             - 16370:6379
+    gotenberg:
+        image: gotenberg/gotenberg:8
+        restart: always
+        environment:
+            - PDFENGINES_MERGE_ENGINES=pdftk,qpdf,pdfcpu
 
 volumes:
   database:
