@@ -1,5 +1,26 @@
 Changelog
 -------------
+1.3.4 (2-Mar-2026)
+- Fix UWW Background image
+- Fix challenge bumper press
+
+1.3 (30-Jan-2026)
+This version and above requires “.NET Desktop Runtime 8.0.23”. If you need to download, get it from https://dotnet.microsoft.com/download/dotnet/8.0
+- Fix time background color change when start or stop timer
+- Audio bip on last 10 seconds of each round
+- Fix issue with 0 caution sport start button
+- Fix Passivity/Activity by sport (Only GR/FS or WW)
+- Fix changing sport config on the fly
+- Fully HTML scoreboard for WRE and BW with machine timecode synchronisation for very less delay between screens (Smart TV connected via wire)
+- Preload match after ESD
+- UDP Demo ("dmo") message for demo mode (0/1)
+- Add load matches button on tablet mode in UI
+- Add red line over the match number when no connection
+- Cache all images used and audio
+- When FillUI we select HTML if (Olympic BW GP) or show legacy if MMA & KK (get previous TV screen position and size)
+- Non Technique Points (GR 1-1 Rule) cautions or challenge lost or passivity, highlight only opposite side
+- Remove leg foul
+
 1.2.40.13 (10-Sep-2025)
  - Update: Use normal advantage on Greco Roman style 1:1 result if both athletes have 1 caution
 
