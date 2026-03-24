@@ -1,5 +1,9 @@
 Changelog
 -------------
+1.3.9 (24-Mar-2026)
+ - Revert to legacy TV Screen (Scoreboard)
+ - Fix: tie criteria do not handle “last technical point(s) scored” properly
+
 1.3.4 (2-Mar-2026)
 - Fix UWW Background image
 - Fix challenge bumper press
