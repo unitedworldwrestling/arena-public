@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.3.12 (28-Apr-2026)
+ - Fix: Verbal warning on U17 (Blue side)
+
 1.3.9 (24-Mar-2026)
  - Revert to legacy TV Screen (Scoreboard)
  - Fix: tie criteria do not handle “last technical point(s) scored” properly
