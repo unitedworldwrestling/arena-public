@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.3.18 (11-May-2026)
+ - HotFix: Verbal Warning for U15/U17/Veterans
+
 1.3.12 (28-Apr-2026)
  - Fix: Verbal warning on U17 (Blue side)
 
