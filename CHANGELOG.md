@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.3.19.2 (21-May-2026)
+ - Fix: visibility Alt Activity U17, U15, Veterans
+
 1.3.18 (11-May-2026)
  - HotFix: Verbal Warning for U15/U17/Veterans
 
