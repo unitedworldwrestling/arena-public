@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.3.19.3 (27-May-2026)
+ - Fix: AutoUpdate always shows there is a new version 
+
 1.3.19.2 (21-May-2026)
  - Fix: visibility Alt Activity U17, U15, Veterans
 
