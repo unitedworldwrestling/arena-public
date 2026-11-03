@@ -4,7 +4,7 @@
 
 It is has been developed and is actively maintained by the **[United World Wrestling IT Department](http://uww.io)**.
 
-**[United World Wrestling](https://unitedworldwrestling.org)** uses **Arena** to manage its Officials International Competitions.
+**[United World Wrestling](https://uww.org)** uses **Arena** to manage its Officials International Competitions.
 
 ## Install
 1. Download and install Docker Desktop https://docs.docker.com/desktop/
@@ -118,4 +118,4 @@ Watch the UWW IT Webinars - Arena Training Series - Companion applications video
 ## API
 
 Arena has a built-in Rest API which allows you to extend the main scope of the project.
-[API Documentation](http://arena.unitedworldwrestling.org/api/doc)
+[API Documentation](http://arena.uww.org/api/doc)
