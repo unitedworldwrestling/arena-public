@@ -18,6 +18,7 @@ services:
 
     nginx:
         image: public.ecr.aws/uww/app/arena-web:beta
+
     caddy:
         image: public.ecr.aws/uww/app/arena-mercure:beta
 
