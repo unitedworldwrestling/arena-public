@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.3.20.222 (26-Nov-2026)
+ - The injury time and the match clock never run together: starting one is refused while the other runs
+
 1.3.20.216 (26-Nov-2026)
 New:
  - MMA and Pankration: new public scoreboard and operator screen (judges' cards for each round, deductions, breaks between rounds, winner band, list of officials)
