@@ -1,5 +1,8 @@
 Changelog
 -------------
+1.3.20.231 (26-Nov-2026)
+ - Challenge: a challenge accepted by mistake can be cancelled with the new CANCEL button, also from the mat chairman tablet; the athlete keeps the challenge
+
 1.3.20.222 (26-Nov-2026)
  - The injury time and the match clock never run together: starting one is refused while the other runs
 
