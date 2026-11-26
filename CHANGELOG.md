@@ -1,5 +1,33 @@
 Changelog
 -------------
+1.3.20.216 (26-Nov-2026)
+New:
+ - MMA and Pankration: new public scoreboard and operator screen (judges' cards for each round, deductions, breaks between rounds, winner band, list of officials)
+ - MMA and Pankration: the number of rounds and the extra round follow the sport configuration in Arena
+ - Judge and mat chairman tablets (UWW Judge Tablet): pairing, list of bouts, points and cautions, challenge, score sheets sent to Arena through the scoreboard
+ - Grappling: extra round before overtime (Grappling Rules, July 2026)
+ - HTML scoreboard: MMA and belt wrestling layouts
+ - Flags 2026; a club code of any length is shown with its flag
+ - Real-time UDP protocol 2k26.1: new documentation, winner message repeated, MMA judges' cards message
+Rules:
+ - Wrestling tie criteria follow Art. 29
+ - Greco-Roman: a passivity gives a point only for the 1st and the 2nd of the match
+ - Verbal warning and activity time by age group (U11, U13, U15, U17 and Veterans start with the activity time)
+ - Beach wrestling: 2VIN uses the score before the ranking criteria; a 0-0 falls back to the draw number
+ - Kazakh Kuresi: counters and tie criteria
+ - A bout can be closed without a winner for 2VIN and 2VFO
+Operator:
+ - Arena not answering never blocks the scoreboard: results are kept and sent later
+ - Challenge: the result is sent to Arena when it is decided; a lost challenge entered by mistake can be taken back
+ - Challenge: the banner moves up when an activity or injury time is shown, and the timers stay on screen
+ - Main clock, activity and injury time: each one has its own + and - buttons; + adds one second to the displayed time
+ - Injury time typed by the operator is the displayed time; hiding the activity time no longer resets it
+ - A bout typed in by the operator is no longer sent to Arena
+ - Settings: Arena auto discovery works again
+Fixes:
+ - The activity and injury timers come back on the public scoreboard after a challenge
+ - UDP referees message: the team is sent without a closing bracket
+
 1.3.19.3 (27-May-2026)
  - Fix: AutoUpdate always shows there is a new version 
 
