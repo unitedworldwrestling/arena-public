@@ -1,5 +1,23 @@
 Changelog
 -------------
+1.3.20.250 (28-Nov-2026)
+New:
+ - UDP request "status": a receiver (LGTV) can ask at any time where the match stands; the answer goes back to the sender (protocol 2k26.3)
+ - MMA judge tablets: each card is checked against the memory sheet; a card without a winner (TIE) is decided by the mat chairman
+ - Pankration extra round (Pankration Rules art. 5.1): announced to the judge tablets, OVERTIME column on the judge sheet, EXTRA column on the public table; the judge's total is the extra-round card, which decides the winner
+ - Pankration extra round: its card can also be entered by hand in the judge's scorecard window
+ - Weight category name taken from Arena (+84 kg instead of 93); the weight keeps its plus sign (+77)
+ - Arena match list: the Sport column shows the whole category name
+Operator:
+ - Judges are labelled J1, J2, J3
+ - Judges' country read from Arena
+ - MMA judge sheet: a judge's block opens the scorecard window only for a click pressed and released on it
+ - MMA and Pankration: no INVERT ADVANTAGE when the judges' totals are tied
+Fixes:
+ - Auto-update: the update window no longer closes on its own before "Update" can be clicked
+ - Installer: always replaces the previous version
+ - Official version: no "BETA VERSION" in the window title
+
 1.3.20.231 (26-Nov-2026)
  - Challenge: a challenge accepted by mistake can be cancelled with the new CANCEL button, also from the mat chairman tablet; the athlete keeps the challenge
 
